@@ -188,11 +188,11 @@ button:hover {
   color: #ffff;
 }
 .menu-col-1 .button {
+  background-color: #178fd6;
   border-style: solid;
   border-radius: 15px;
   text-decoration : none;
   padding : 4px;
-  background-color: #178fd6;
 }
 .container .row {
   display: flex;
@@ -260,10 +260,10 @@ form label{
 }
 /* CSS Footer */
 footer {
-  text-align: center;
-  padding: 3px;
   background-color: #178fd6;
   color: white;
+  text-align: center;
+  padding: 3px;
 }
 /* CSS KEYFRAME ANIMATION */
 @keyframes LinkFade {
