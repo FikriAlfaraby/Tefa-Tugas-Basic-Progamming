@@ -265,6 +265,10 @@ footer {
   text-align: center;
   padding: 3px;
 }
+footer p {
+  font-size: 15px;
+  margin: 10px;
+}
 /* CSS KEYFRAME ANIMATION */
 @keyframes LinkFade {
   from{
