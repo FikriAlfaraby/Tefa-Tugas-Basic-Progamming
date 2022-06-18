@@ -14,10 +14,11 @@ nav {
 }
 
 .logo {
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 15px;
+  font-weight: bold;
 }
 .nav-links {
   display: flex;
