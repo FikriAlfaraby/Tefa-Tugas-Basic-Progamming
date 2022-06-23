@@ -150,24 +150,26 @@
           <section class="contact hide" id="contact-section">
             <div class="container">
               <h2>Contact Form</h2>
-              <form action="">
+              <form id="form" action="">
                 <label for="nama">Nama</label>
-                <input type="text" id="nama" name="nama" placeholder="Nama kamu..">
+                <input type="text" id="nama" name="nama" placeholder="Nama kamu.." required>
             
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="Email kamu..">
+                <input type="text" id="email" name="email" placeholder="Email kamu.." required>
             
                 <label for="country">Asal Negara</label>
                 <select id="country" name="country">
-                  <option value="australia">Indonesia</option>
-                  <option value="canada">Canada</option>
-                  <option value="usa">USA</option>
+                  <option>Indonesia</option>
+                  <option>Canada</option>
+                  <option>USA</option>
                 </select>
             
                 <label for="pesan">Pesan</label>
-                <textarea id="pesan" name="pesan" placeholder="Ketik sesuatu.." style="height:200px"></textarea>
+                <textarea id="pesan" name="pesan" placeholder="Ketik sesuatu.." style="height:200px" required></textarea>
             
-                <input type="submit" value="Submit" onclick="onSumbit()">
+                <input type='button' value="Sumbit"  onclick="onSumbit()">
+                
+                <p id="result" style="color: white;"></p>
           </section>
           <!-- End Section Contact -->
         </div>

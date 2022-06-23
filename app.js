@@ -29,6 +29,10 @@ let profile = document.getElementById("profile-section");
 let homeBtn = document.getElementById("home-button");
 let contactBtn = document.getElementById("contact-button");
 let profileBtn = document.getElementById("profile-button");
+
+
+
+
 const onHome = () => {
   homeBtn.style.backgroundColor = "#000";
   contactBtn.style.backgroundColor = "#178fd6";
@@ -57,5 +61,25 @@ const onContact = () => {
   profile.style.display = "none";
 }
 const onSumbit = () => {
-  alert("Pesan Kamu telah terkirim!")
+  const nama = document.getElementById('nama').value;
+  const email = document.getElementById('email').value;
+  const country = document.getElementById('country').value;
+  const pesan = document.getElementById('pesan').value;
+  
+  if (nama != "" && email != "" && country != "" && pesan != "" ) {
+    document.getElementById('result').innerHTML += nama;
+    document.getElementById('result').innerHTML += email;
+    document.getElementById('result').innerHTML += country;
+    document.getElementById('result').innerHTML += pesan;
+  } else {
+    alert("Isi form sampai selesai")
+  }
+  
+
+
+  
+
+  
+ 
+  
 }
